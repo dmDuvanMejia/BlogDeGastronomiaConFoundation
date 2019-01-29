@@ -1,0 +1,9 @@
+#header {
+    color: aliceblue;
+    padding: 1px 0 15px 0;
+}
+
+#header h2{
+    text-align: end;
+    font-size: 1.5em;
+}
