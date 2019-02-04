@@ -30,8 +30,9 @@
         </div>
     </div> -->
 
+    <!-- Cabecera -->
     <div class="row" style="border-bottom: 2px solid skyblue">
-        <div class="small-4 small-pull-8 columns" style="background: royalblue">
+        <div class="large-4 small-12 medium-pull-4 columns" style="background: royalblue">
             <header id="header">
 
                 <h1>Cocinando</h1>
@@ -40,10 +41,10 @@
         </div>
     </div>
 
+    <!-- Contenedor principal -->
     <div class="row">
-        <div class="small-4 small-pull-8 columns" style="background: silver">
-
-
+        <div class="large-4 small-12 medium-pull-4 columns" style="background: silver">
+            <!-- Buscador -->
             <div class="row collapse postfix-round ">
                 <div class="small-9 columns">
                     <input type="text" placeholder="Buscar">
@@ -52,21 +53,89 @@
                     <a href="#" class="button postfix">Go</a>
                 </div>
             </div>
-            <ul class="list-group side-nav">
-                <li class="list-group-item"><a href="#">Inicio</a></li>
+            <!-- Menu de navegación -->
+            <ul class="vertical menu">
                 <li class="list-group-item">
-                    <a href="#">Mi plato perfecto</a>
+                    <button class="hollow button expanded">
+                        <a href="#">Inicio</a>
+                    </button>
+                </li>
+                <li class="list-group-item">
+                    <button class="hollow button expanded">
+                        <a href="#">Mi plato perfecto</a>
+                    </button>
                 </li>
                 <li>
-                    <a href="#">Mis recetas</a>
+                    <button class="hollow button expanded">
+                        <a href="#">Mis recetas</a>
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Favoritos -->
+            <h3> Favoritos </h3>
+            <div class="row">
+
+                <div class="columns small-12 large-12">
+                    <img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
+                    <img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
+                    <img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
+                </div>
+                <div class="columns small-12 large-12">
+                    <img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
+                    <img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
+                    <img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
+                </div>
+            </div>
+
+            <!-- Historial -->
+            <h3> Historial </h3>
+            <ul class="menu vertical">
+                <li>
+                    <a href="#"> <span>Pastas </span></a>
                 </li>
                 <li>
-                    <a href="#">Favoritos</a>
+                    <a href="#"> <span>Postres en 5 minutos</span></a>
+                </li>
+                <li>
+                    <a href="#"> <span>Formas de hornear en casa</span></a>
+                </li>
+                <li>
+                    <a href="#"> <span>Pollo en salsa</span></a>
+                </li>
+                <li>
+                    <a href="#"> <span>Cañon de cerdo BBQ</span></a>
                 </li>
             </ul>
 
 
+
         </div>
+
+        <!-- sección de articulos -->
+        <div class="columns">
+            <section>
+                <article>
+                    <h3>Pasta Artesanal</h3>
+                    <p>Publicado en
+                        <datetime>Febrero 4 del 2019</datetime>
+                    </p>
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, commodi. Voluptatibus veritatis molestias numquam nihil molestiae sint fuga, odit minus. Doloremque corrupti magnam architecto hic eaque eos sunt assumenda? Voluptas.</p>
+                    <p>Escribe un comentario</p>
+                    <textarea placeholder="Agrega tu comentario">
+                    </textarea>
+                    <div class="panel clearfix" style="background: red">
+                        <a href="#" class="button rigth">Publicar</a>
+                    </div>
+
+        </div>
+
+        </article>
+        </section>
+    </div>
     </div>
 
 
@@ -77,4 +146,4 @@
     <script src="vendor/foundation-6.5.1-custom/js/vendor/what-input.js"></script>
 </body>
 
-</html>
+</html
