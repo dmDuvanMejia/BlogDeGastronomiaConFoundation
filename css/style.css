@@ -3,7 +3,52 @@
     padding: 1px 0 15px 0;
 }
 
-#header h2{
+#header h2 {
     text-align: end;
     font-size: 1.5em;
+}
+
+.button--comment {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.comments {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container-comment {
+    display: flex;
+}
+
+.photo--perfil {
+    border-radius: 50%;
+    background: #853c58;
+}
+
+.photo--perfil img {
+    width: 80%;
+}
+
+.like {
+    float: right;
+}
+
+.like:hover {
+    cursor: pointer;
+    font-size: 20px;
+    animation: latidos .5s infinite;
+}
+
+@keyframes latidos {
+    from {
+        transform: none;
+    }
+    50% {
+        transform: scale(1.4);
+    }
+    to {
+        transform: none;
+    }
 }
