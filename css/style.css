@@ -1,11 +1,25 @@
+body{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #header {
     color: aliceblue;
     padding: 1px 0 15px 0;
 }
 
+.container{
+    background: #3af3f35d;
+}
+
 #header h2 {
     text-align: end;
     font-size: 1.5em;
+}
+
+.entry--image{
+    border-radius: 10%;
 }
 
 .button--comment {
@@ -16,6 +30,7 @@
 .comments {
     border: 1px solid black;
     border-radius: 10px;
+    margin-bottom: 2%;
 }
 
 .container-comment {
@@ -24,7 +39,7 @@
 
 .photo--perfil {
     border-radius: 50%;
-    background: #853c58;
+    margin-left: 1%;
 }
 
 .photo--perfil img {
@@ -40,6 +55,7 @@
     font-size: 20px;
     animation: latidos .5s infinite;
 }
+
 
 @keyframes latidos {
     from {
