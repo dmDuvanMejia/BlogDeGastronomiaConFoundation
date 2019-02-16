@@ -5,17 +5,52 @@ body{
 }
 
 #header {
-    color: aliceblue;
+    color: rgb(15, 16, 17);
     padding: 1px 0 15px 0;
 }
 
 .container{
     background: #3af3f35d;
+    
+}
+
+.container-aside{
+    background: darkslateblue;
+    margin-top: 2%;
+}
+
+.search ::-webkit-input-placeholder {
+    margin-top: 5%;
+}
+
+.search input{
+    margin: 5% 0 5% 10%;
+}
+
+.search .button{
+    margin: 15% 0 5% 6%;
+}
+
+.title--menu{
+    margin-top: 15%;
+}
+
+.title--menu{
+    width: 100%;
+    text-align: center;
+}
+
+.section--article{
+    background: #e45fd2;
+    border-radius: 8px;
+    margin-top: 1%;
+    padding: 0 2% 0 2%;
 }
 
 #header h2 {
-    text-align: end;
     font-size: 1.5em;
+    text-align: end;
+    padding-left: 5px;
 }
 
 .entry--image{

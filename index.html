@@ -15,24 +15,9 @@
 
 <body>
 
-	<!-- <div class="row" style="background: rgba(201, 217, 241, 0.986); ">
-        <div class="columns" >
-            <div class="small-3" style="border-left: 5px solid royalblue; border-right:5px solid royalblue">
-                <header id="header" class="small-8" style="border-left: 5px solid royalblue">
-                    <h1>Gastroduvia</h1>
-                    <h2>El dulce sabor de la cocina</h2>
-                </header>
-
-                <aside>
-                    gr
-                </aside>
-            </div>
-        </div>
-    </div> -->
-
 	<!-- Cabecera -->
 	<div class="row container" style="border-bottom: 3px solid rgb(102, 201, 240)">
-		<div class="large-4 small-12 medium-pull-4 columns container" style="background: royalblue">
+		<div class="large-4 small-12 medium-pull-4 columns container" style="">
 			<header id="header">
 
 				<h1>Cocinando</h1>
@@ -45,258 +30,255 @@
 	<div class="row container">
 		<!-- Aside de la pagina -->
 		<div class="large-4 small-12 medium-pull-4 columns" style="background: none">
-			<!-- Buscador -->
-			<div class="row collapse postfix-round ">
-				<div class="small-9 columns">
-					<input type="text" placeholder="Buscar">
+			<div class="container-aside">
+
+				<!-- Buscador -->
+				<div class="row collapse postfix-round search">
+					<div class="small-9 columns">
+						<input type="text" placeholder="Buscar">
+					</div>
+					<div class="small-3 columns">
+						<a href="#" class="button postfix">Go</a>
+					</div>
 				</div>
-				<div class="small-3 columns">
-					<a href="#" class="button postfix">Go</a>
+			
+				<!-- Menu de navegación -->
+				<ul class="vertical menu">
+					<li class="list-group-item">
+						<button class="hollow button expanded">
+							<a href="#">Inicio</a>
+						</button>
+					</li>
+					<li class="list-group-item">
+						<button class="hollow button expanded">
+							<a href="#">Mi plato perfecto</a>
+						</button>
+					</li>
+					<li>
+						<button class="hollow button expanded">
+							<a href="#">Mis recetas</a>
+						</button>
+					</li>
+				</ul>
+
+				<!-- Favoritos -->
+				<h3 class="title--menu"> Favoritos </h3>
+				<div class="row ">
+					<div class="columns small-12 large-12">
+						<img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
+						<img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
+						<img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
+					</div>
+					<div class="columns small-12 large-12">
+						<img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
+						<img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
+						<img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
+					</div>
 				</div>
+
+				<!-- Historial -->
+				<h3 class="title--menu"> Historial </h3>
+				<ul class="menu vertical light-gray">
+					<li>
+						<a href="#"> <span>Pastas </span></a>
+					</li>
+					<li>
+						<a href="#"> <span>Postres en 5 minutos</span></a>
+					</li>
+					<li>
+						<a href="#"> <span>Formas de hornear en casa</span></a>
+					</li>
+					<li>
+						<a href="#"> <span>Pollo en salsa</span></a>
+					</li>
+					<li>
+						<a href="#"> <span>Cañon de cerdo BBQ</span></a>
+					</li>
+				</ul>
 			</div>
-			<!-- Menu de navegación -->
-			<ul class="vertical menu">
-				<li class="list-group-item">
-					<button class="hollow button expanded">
-						<a href="#">Inicio</a>
-					</button>
-				</li>
-				<li class="list-group-item">
-					<button class="hollow button expanded">
-						<a href="#">Mi plato perfecto</a>
-					</button>
-				</li>
-				<li>
-					<button class="hollow button expanded">
-						<a href="#">Mis recetas</a>
-					</button>
-				</li>
-			</ul>
-
-			<!-- Favoritos -->
-			<h3> Favoritos </h3>
-			<div class="row">
-
-				<div class="columns small-12 large-12">
-					<img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
-					<img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
-					<img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
-				</div>
-				<div class="columns small-12 large-12">
-					<img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
-					<img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
-					<img src="img/pizza.svg" alt="" class="small-12 large-4" width="31%">
-				</div>
-			</div>
-
-			<!-- Historial -->
-			<h3> Historial </h3>
-			<ul class="menu vertical">
-				<li>
-					<a href="#"> <span>Pastas </span></a>
-				</li>
-				<li>
-					<a href="#"> <span>Postres en 5 minutos</span></a>
-				</li>
-				<li>
-					<a href="#"> <span>Formas de hornear en casa</span></a>
-				</li>
-				<li>
-					<a href="#"> <span>Pollo en salsa</span></a>
-				</li>
-				<li>
-					<a href="#"> <span>Cañon de cerdo BBQ</span></a>
-				</li>
-			</ul>
 		</div>
 
 		<!-- sección de articulos -->
 		<div class="columns">
-			<section>
-				<article>
-					<h3>Pasta Artesanal</h3>
-					<p>Publicado en
-						<datetime>Febrero 4 del 2019</datetime>
-					</p>
-					<figure>
-						<img src="img/pasta.jpg" alt="Deliciosa pasta artesanal con albondiga" class="entry--image" >
-					</figure>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, commodi. Voluptatibus veritatis molestias
-						numquam nihil molestiae sint fuga, odit minus. Doloremque corrupti magnam architecto hic eaque eos sunt
-						assumenda? Voluptas.</p>
-					<p>Escribe un comentario</p>
-					<textarea placeholder="Agrega tu comentario"></textarea>
-					<div class="columns small-12 large-12 button--comment container-comment">
-						<a href="#" class="button rigth">Publicar</a>
-					</div>
-					<!-- Comentarios -->
-					<div class="columns small-12 large-12 container-comment">
-						<ul class="menu vertical ">
-							<!-- Primer comentario  -->
-							<li class="list-group-item comments">
-								<div class="row">
-									<div class="columns small-4 medium-2">
-										<figure class="photo--perfil">
-											<img src="img/chef.svg" alt="Perfil de usuario de Julio34">
-										</figure>
-									</div>
-									<div class="columns small-8 medium-10">
-										<p>
-											<span>
-												DuvanMejia:
-											</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores vero aliquam beatae esse deleniti
-											delectus illo dolorem minus enim quasi,
-											rerum eligendi magnam ut ex, dolor saepe expedita voluptas similique!
-										</p>
-										<div class="like">
-											&#128147;<span>3</span>
+			<div class="section--article">
+				<!-- Primer articulo publicado -->
+				<section>
+					<article>
+						<h3>Pasta Artesanal</h3>
+						<p>Publicado en
+							<datetime>Febrero 4 del 2019</datetime>
+						</p>
+						<figure>
+							<img src="img/pasta.jpg" alt="Deliciosa pasta artesanal con albondiga" class="entry--image" >
+						</figure>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, commodi. Voluptatibus veritatis molestias
+							numquam nihil molestiae sint fuga, odit minus. Doloremque corrupti magnam architecto hic eaque eos sunt
+							assumenda? Voluptas.</p>
+						<p>Escribe un comentario</p>
+						<textarea placeholder="Agrega tu comentario"></textarea>
+						<div class="columns small-12 large-12 button--comment container-comment">
+							<a href="#" class="button rigth">Publicar</a>
+						</div>
+						<!-- Comentarios -->
+						<div class="columns small-12 large-12 container-comment">
+							<ul class="menu vertical ">
+								<!-- Primer comentario  -->
+								<li class="list-group-item comments">
+									<div class="row">
+										<div class="columns small-4 medium-2">
+											<figure class="photo--perfil">
+												<img src="img/chef.svg" alt="Perfil de usuario de Julio34">
+											</figure>
+										</div>
+										<div class="columns small-8 medium-10">
+											<p>
+												<span>
+													DuvanMejia:
+												</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores vero aliquam beatae esse deleniti
+												delectus illo dolorem minus enim quasi,
+												rerum eligendi magnam ut ex, dolor saepe expedita voluptas similique!
+											</p>
+											<div class="like">
+												&#128147;<span>3</span>
+											</div>
 										</div>
 									</div>
-								</div>
-							</li>
-							<!-- Segundo comentario -->
-							<li class="list-group-item comments">
-								<div class="row">
-									<div class="columns small-4 medium-2">
-										<figure class="photo--perfil">
-											<img src="img/vale.svg" alt="Perfil de usuario de Julio34">
-										</figure>
-									</div>
-									<div class="columns small-8 medium-10">
-										<p>
-											<span>
-												ValentinaGarcia98:
-											</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit.!
-										</p>
-										<div class="like">
-											&#128147;<span>120</span>
+								</li>
+								<!-- Segundo comentario -->
+								<li class="list-group-item comments">
+									<div class="row">
+										<div class="columns small-4 medium-2">
+											<figure class="photo--perfil">
+												<img src="img/vale.svg" alt="Perfil de usuario de Julio34">
+											</figure>
+										</div>
+										<div class="columns small-8 medium-10">
+											<p>
+												<span>
+													ValentinaGarcia98:
+												</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit.!
+											</p>
+											<div class="like">
+												&#128147;<span>120</span>
+											</div>
 										</div>
 									</div>
-								</div>
-							</li>
-							<!-- Tercer comentario -->
-							<li class="list-group-item comments">
-								<div class="row">
-									<div class="columns small-4 medium-2">
-										<figure class="photo--perfil">
-											<img src="img/duvi.svg" alt="Perfil de usuario de Julio34">
-										</figure>
-									</div>
-									<div class="columns small-8 medium-10">
-										<p>
-											<span>
-												DmCodes:
-											</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores vero aliquam beatae esse deleniti
-											delectus illo dolorem minus enim quas!
-										</p>
-										<div class="like">
-											&#128147;<span>20</span>
+								</li>
+								<!-- Tercer comentario -->
+								<li class="list-group-item comments">
+									<div class="row">
+										<div class="columns small-4 medium-2">
+											<figure class="photo--perfil">
+												<img src="img/duvi.svg" alt="Perfil de usuario de Julio34">
+											</figure>
+										</div>
+										<div class="columns small-8 medium-10">
+											<p>
+												<span>
+													DmCodes:
+												</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores vero aliquam beatae esse deleniti
+												delectus illo dolorem minus enim quas!
+											</p>
+											<div class="like">
+												&#128147;<span>20</span>
+											</div>
 										</div>
 									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</article>
-			</section>
+								</li>
+							</ul>
+						</div>
+					</article>
+				</section>
 
-
-			
-
-			<section>
-				<article>
-					<h3>Los mejores jugos para adelgazar</h3>
-					<p>Publicado en
-						<datetime>Febrero 10 del 2019</datetime>
-					</p>
-					<figure>
-						<img src="img/jugo.jpg" alt="Jugos naturales para adelgazar" class="entry--image">
-					</figure>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, commodi. Voluptatibus veritatis molestias
-						numquam nihil molestiae sint fuga, odit minus. Doloremque corrupti magnam architecto hic eaque eos sunt
-						assumenda? Voluptas.</p>
-					<p>Escribe un comentario</p>
-					<textarea placeholder="Agrega tu comentario"></textarea>
-					<div class="columns small-12 large-12 button--comment container-comment">
-						<a href="#" class="button rigth">Publicar</a>
-					</div>
-					<!-- Comentarios -->
-					<div class="columns small-12 large-12 container-comment">
-						<ul class="menu vertical ">
-							<!-- Primer comentario  -->
-							<li class="list-group-item comments">
-								<div class="row">
-									<div class="columns small-4 medium-2">
-										<figure class="photo--perfil">
-											<img src="img/chef.svg" alt="Perfil de usuario de Julio34">
-										</figure>
-									</div>
-									<div class="columns small-8 medium-10">
-										<p>
-											<span>
-												DuvanMejia:
-											</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores vero aliquam beatae esse deleniti
-											delectus illo dolorem minus enim quasi,
-											rerum eligendi magnam ut ex, dolor saepe expedita voluptas similique!
-										</p>
-										<div class="like">
-											&#128147;<span>3</span>
+				<!-- Segundo articulo publicado -->
+				<section>
+					<article>
+						<h3>Los mejores jugos para adelgazar</h3>
+						<p>Publicado en
+							<datetime>Febrero 10 del 2019</datetime>
+						</p>
+						<figure>
+							<img src="img/jugo.jpg" alt="Jugos naturales para adelgazar" class="entry--image">
+						</figure>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, commodi. Voluptatibus veritatis molestias
+							numquam nihil molestiae sint fuga, odit minus. Doloremque corrupti magnam architecto hic eaque eos sunt
+							assumenda? Voluptas.</p>
+						<p>Escribe un comentario</p>
+						<textarea placeholder="Agrega tu comentario"></textarea>
+						<div class="columns small-12 large-12 button--comment container-comment">
+							<a href="#" class="button rigth">Publicar</a>
+						</div>
+						<!-- Comentarios -->
+						<div class="columns small-12 large-12 container-comment">
+							<ul class="menu vertical ">
+								<!-- Primer comentario  -->
+								<li class="list-group-item comments">
+									<div class="row">
+										<div class="columns small-4 medium-2">
+											<figure class="photo--perfil">
+												<img src="img/chef.svg" alt="Perfil de usuario de Julio34">
+											</figure>
+										</div>
+										<div class="columns small-8 medium-10">
+											<p>
+												<span>
+													DuvanMejia:
+												</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores vero aliquam beatae esse deleniti
+												delectus illo dolorem minus enim quasi,
+												rerum eligendi magnam ut ex, dolor saepe expedita voluptas similique!
+											</p>
+											<div class="like">
+												&#128147;<span>3</span>
+											</div>
 										</div>
 									</div>
-								</div>
-							</li>
-							<!-- Segundo comentario -->
-							<li class="list-group-item comments">
-								<div class="row">
-									<div class="columns small-4 medium-2">
-										<figure class="photo--perfil">
-											<img src="img/vale.svg" alt="Perfil de usuario de Julio34">
-										</figure>
-									</div>
-									<div class="columns small-8 medium-10">
-										<p>
-											<span>
-												ValentinaGarcia98:
-											</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit.!
-										</p>
-										<div class="like">
-											&#128147;<span>120</span>
+								</li>
+								<!-- Segundo comentario -->
+								<li class="list-group-item comments">
+									<div class="row">
+										<div class="columns small-4 medium-2">
+											<figure class="photo--perfil">
+												<img src="img/vale.svg" alt="Perfil de usuario de Julio34">
+											</figure>
+										</div>
+										<div class="columns small-8 medium-10">
+											<p>
+												<span>
+													ValentinaGarcia98:
+												</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit.!
+											</p>
+											<div class="like">
+												&#128147;<span>120</span>
+											</div>
 										</div>
 									</div>
-								</div>
-							</li>
-							<!-- Tercer comentario -->
-							<li class="list-group-item comments">
-								<div class="row">
-									<div class="columns small-4 medium-2">
-										<figure class="photo--perfil">
-											<img src="img/duvi.svg" alt="Perfil de usuario de Julio34">
-										</figure>
-									</div>
-									<div class="columns small-8 medium-10">
-										<p>
-											<span>
-												DmCodes:
-											</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores vero aliquam beatae esse deleniti
-											delectus illo dolorem minus enim quas!
-										</p>
-										<div class="like">
-											&#128147;<span>20</span>
+								</li>
+								<!-- Tercer comentario -->
+								<li class="list-group-item comments">
+									<div class="row">
+										<div class="columns small-4 medium-2">
+											<figure class="photo--perfil">
+												<img src="img/duvi.svg" alt="Perfil de usuario de Julio34">
+											</figure>
+										</div>
+										<div class="columns small-8 medium-10">
+											<p>
+												<span>
+													DmCodes:
+												</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores vero aliquam beatae esse deleniti
+												delectus illo dolorem minus enim quas!
+											</p>
+											<div class="like">
+												&#128147;<span>20</span>
+											</div>
 										</div>
 									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</article>
-			</section>
-
-
-
-
-
-
-
+								</li>
+							</ul>
+						</div>
+					</article>
+				</section>
+			</div>
 		</div>
 	</div>
 
